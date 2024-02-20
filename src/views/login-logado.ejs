@@ -1,0 +1,21 @@
+<%- include('includes/head.ejs') %>
+<%- include('includes/nav.ejs') %>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-8 my-3">
+
+            <h1 class=" text-center">Olá <strong><%= user.email %></strong></h1>
+            <p class="text-center lead">Faça logout</p>
+
+            <%- include('includes/messages'); %>
+
+
+        </div>
+        <div class="col-lg-2"></div>
+    </div>
+</div>
+
+<%- include('includes/footer.ejs') %>
+
